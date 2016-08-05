@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+  <servlet>
+    <servlet-name>ServletLog4J</servlet-name>
+    <servlet-class>com.servlet.sample.ServletLog4J</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLog4J</servlet-name>
+    <url-pattern>/servletlog4j</url-pattern>
+  </servlet-mapping>
+</web-app>

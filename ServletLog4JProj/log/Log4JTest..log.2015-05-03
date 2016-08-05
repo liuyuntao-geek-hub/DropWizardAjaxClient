@@ -1,0 +1,2 @@
+2015-05-03 23:31:16,596 [main] [INFO] (SingleAOPDecorator.java:20) - before method: create
+2015-05-03 23:31:16,618 [main] [INFO] (SingleAOPDecorator.java:26) - create took 6888773 ns
